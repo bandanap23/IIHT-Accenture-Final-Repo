@@ -1,0 +1,27 @@
+1. A set of best practices to reduce delivery times
+2. Patrick Debois
+3. Kohsuke Kawaguchi
+4. Jenkins originated from Hudson
+5. JDK or JRE  version 1.8
+6. Git Server provides web-hooks for invoking call back functions which can be used by Jenkins to trigger automatic jobs
+   Git acts as a source code management tool
+   Git provides plugins for Continuous Integration
+   
+ 7. GitHub credentials (SSH keys or username & password)
+    GitHub plugin installed on Jenkins
+ 8. all
+ 9. http://your-jenkins-URL-with-port/jobname/github-webhook/
+ 10. -p 8080:80
+ 11. “run” command will spin a new container while “start” will run a stopped container
+ 12. Ensure that Jenkins is running full capacity jobs
+ 13. Jenkins User needs to be have appropriate privileges to run applications
+     Jenkins User needs to have correct folder permissions
+ 14. A set of Jobs which define a certain workflow & dependency
+ 15. A cluster of docker hosts or nodes which are connected
+ 16. It is another Jenkins Server
+     It’s a light weight Jenkins worker 
+ 17. None
+ 18. M2_HOME
+     JENKINS_HOME
+ 19. docker volume create volume_name
+ 20. all
